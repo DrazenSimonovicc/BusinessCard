@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  max-width: 1140px;
+  background-color: bisque;
+  font-family: "Inter", sans-serif;
+}
+.outside {
+  margin: 0 auto;
+  width: 550px;
+  background-color: #23252c;
+}
+.card {
+  margin: 0 auto;
+  width: 317px;
+  padding: 44px 0;
+}
+.main-container {
+  background-color: #1a1b21;
+}
+.img-box {
+  width: 317px;
+  background-color: #1a1b21;
+}
+.img {
+  width: 100%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.heading-primary {
+  padding-top: 21px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+.heading-secondary {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #f3bf99;
+}
+.profile-link {
+  font-size: 11px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.profile-buttons {
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 11px 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s;
+}
+.btn-white:link,
+.btn-white:visited {
+  background-color: #d1d5db;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: #374151;
+}
+.btn-white:hover {
+  transform: translateY(-2px);
+}
+.btn-white:active {
+  transform: translateY(2px);
+}
+.btn-blue:link,
+.btn-blue:visited {
+  background-color: #5093e2;
+  border: 1px solid #5093e2;
+  border-radius: 6px;
+  color: #fff;
+}
+.btn-blue:hover {
+  transform: translateY(-2px);
+}
+.btn-blue:active {
+  transform: translateY(2px);
+}
+.profile-main {
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.heading-tertiary {
+  font-size: 16px;
+  color: #f5f5f5;
+  font-weight: 700;
+}
+.profile-text {
+  font-size: 11px;
+  color: #dcdcdc;
+}
+
+.footer {
+  padding: 19px;
+  background-color: #161619;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
